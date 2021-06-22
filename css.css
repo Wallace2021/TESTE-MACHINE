@@ -1,0 +1,853 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i'); */
+    /* *{margin:0;
+    padding:0;
+    font-family:'Roboto',sans-serif}
+
+    
+    .contact {
+    display:flex;
+    flex-direction:row-reverse;
+    padding:0 0 25px;
+    }
+    
+    @media(max-width:800px;)
+    {.contact{display:none}}
+    
+    .contact svg {
+    margin-left:5px;
+    }
+    
+    /* .whatsapp,.phone {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    margin-left:20px;
+    }
+    
+    .phone-link,.whatsapp-link {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none
+    }
+    
+    .phone-link span,.whatsapp-link span {
+    position:relative;
+    font-weight:700;
+    padding-bottom:3px;
+    transition:.2s;
+    }
+    
+    .phone-link span {
+        color:#00a1ff;
+        border-bottom:4px solid #00a1ff
+    }
+    
+    .txtbanner {
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    }
+    
+    .txtbanner h1 {
+    font-size:130px;
+    color: #fff;
+    border-bottom:2px #00a1ff;
+    line-height: 100px;
+    padding-bottom: 30px;
+    width: 480px;
+    margin: auto
+    }
+    
+    .txtbanner p {
+        color:#ffff;
+        font-size:25px;
+        margin-top:20px
+    }
+     */
+    form .full {
+        display:block !important
+    }
+    /* #rightbox {
+        float:right;
+        width:100%;
+        display:flex;
+        justify-content:flex-end;
+        margin-top:20px;
+        top:0
+    }
+    
+    #rightbox h3 {
+        color:#161454;
+        position:relative;
+        z-index:444444444;
+        font-size:13px;
+        margin-top:5px;
+        margin-right:5px;
+    }
+    
+    
+    #escolher img {
+        height:145px !important;
+        margin-bottom:20px;
+        margin-right:0
+    }
+    
+    #escolher .icons {
+        justify-content:space-around
+    }
+    
+    #escolher h3 {
+        color:#fff;
+        font-size:22px
+    }
+    
+    #escolher {
+        float:left;
+        width:100%;
+        padding-top:100px;
+        padding-bottom:60px;
+        background:#3091cf
+    }
+    
+    #escolher h2 {
+        font-size:40px;
+        font-weight:700;
+        color:#fff;
+        line-height:35px;
+        margin-bottom:40px
+    }
+    
+    #escolher .icon {
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        text-align:center
+    }
+    
+    .int {
+        display:flex;
+        align-items:flex-start;
+        border-top:#fff 1px solid;
+        padding-top:20px
+    }
+    
+    .int img {
+        width:130px !important
+    }
+    
+    .int p {
+        color:#fff;
+        font-size:16px;
+        margin-left:15px
+    }
+    
+    .title {
+        display:flex;
+        width:100%;
+        align-items:center
+    }
+    
+    .title img {
+        margin-right:30px
+    }
+    
+    .title h2 {
+        font-size:30px;
+        color:#171540
+    }
+    
+    .title h3 {
+        font-size:50px;
+        color:#5a91cd;
+        margin-top:5px
+    }
+    
+    .hamburguer {
+        display:none
+    }
+    
+    .hamburguer a {
+        float:left;
+        transform:rotate(90deg);
+        font-size:23px;
+        color:#000;
+        font-weight:700;
+        cursor:pointer */
+    }
+    
+    #contact .form {
+        width:50%;
+        background-color:#fff;
+        padding:50px 60px
+    }
+    
+    @media(max-width:425px){
+        
+        #contact .form {
+            width:75%;
+            background-color:#fff;
+            padding:40px}
+            
+            #contact .wpcf7 form>p {
+                margin-bottom:10px
+            }
+            
+            #contact input {
+                background:#f8f8f8;
+                width:100%;
+                color:#171540;
+                border:none;
+                padding-top:10px;
+                padding-bottom:10px;
+                margin-top:5px;
+                margin-bottom:15px;
+                font-weight:400;
+                font-size:15px;
+                text-indent:10px
+            }
+            
+            #contact input::placeholder {
+                color:#666;
+                font-weight:300;
+                text-indent:10px
+            }
+            
+            #contact input:focus {
+                outline:2px solid #00a1ff !important
+            }
+            
+            #contact label {
+                cursor:pointer
+            }
+            
+            #contact p {
+                color:#0a0141;
+                font-size:14px;
+                font-weight:700;
+                text-transform:uppercase
+            }
+            
+            #contact span.red {
+                color:red
+            }
+            
+            #contact .boxed {
+                display:flex;
+                justify-content:space-between;
+                margin-top:30px;
+                margin-bottom:30px
+            }
+            
+            #contact .wpcf7-list-item input {
+                width:auto !important
+            }
+            
+            #contact .wpcf7-list-item span {
+                font-weight:700;
+                color:#0a0141;
+                position:relative;
+                left:6px;
+                top:-2px
+            }
+            
+            #contact span.wpcf7-list-item {
+                display:inline-block !important;
+                margin:0 !important;
+                width:100% !important
+            }
+            
+            #contact .wpcf7-list-item-label {text-transform:lowercase;
+                color:#0a0141 !important;
+                font-weight:400 !important;
+                font-size:15px
+            }
+            
+            #contact span.qtd_clientes input {
+                margin-bottom:5px
+            }
+            
+            #contact textarea {
+                border:none;
+                width:95%;
+                background:#f8f8f8;
+                margin-top:10px;
+                margin-bottom:10px;
+                padding:12px;
+                font-size:15px;
+                font-weight:400;
+                color:#171540
+            }
+            
+            #contact textarea::placeholder {
+                color:#666;
+                font-weight:300
+            }
+            
+            #contact textarea:focus {
+                outline:2px solid #00a1ff !important
+            }
+            
+            #contact input[type=submit] {
+                background:#25d366 !important;
+                width:auto;
+                padding-right:30px;
+                padding-top:15px;
+                padding-bottom:15px;
+                padding-left:20px;
+                color:#fff !important;
+                cursor:pointer;
+                float:right;
+                font-weight:700
+            }
+            
+            #contact input[type=submit]:hover {
+                opacity:.8
+            }
+            
+            /* .container {
+                width:1030px
+                ;margin:0 auto
+            }
+            
+            .logo .slogan {
+                font-weight:700;
+                text-align:center;
+                color:#140643
+            }
+            
+            .logo a{text-decoration:none;
+                border-bottom:0 !important
+            }
+            
+            header {
+                padding-top:60px;
+                padding-bottom:30px;
+                background:#fff;
+                z-index:999
+            }
+            
+            header ul li {
+                list-style:none;
+                display:inline;
+                margin-left:40px
+            }
+            header nav {
+                display:flex;
+                justify-content:space-between;
+                align-items:center
+            }
+            header ul li a {
+                text-decoration:none;
+                font-weight:600;
+                color:#0a0141
+            }
+            #banner{background:#00a1ff;
+                height:750px
+                ;background-image:url(https://oruserv.com.br/wp-content/uploads/2020/10/bannerserv.jpg)
+                ;background-size:cover;
+                background-repeat:no-repeat;
+                background-position:center
+            }
+            #banner .container img {
+                width:100%;
+                position:relative;
+                top:100px
+            }
+            .icons {
+                display:flex;
+                margin-bottom:60px}
+                
+                .icons .icon p {
+                    color:#fff;
+                    font-weight:500
+                }
+                
+                .icons .icon img {
+                    height:75px;
+                    margin-right:10px
+                }
+                
+                .icons .icon {
+                    display:flex;
+                    align-items:center
+                }
+                
+                .active {
+                    border-bottom:4px #43f8ff solid */
+                }
+                /* #business {background:#00a1ff;
+                    padding-top:100px;
+                    float:left;width:100%
+                }
+                #business h5 {
+                    font-size:50px;
+                    line-height:initial
+                }
+                #business h1 {
+                    color:#fff;
+                    font-size:46px;
+                    margin-bottom:20px;
+                    margin-top:30px
+                }
+                
+                #business h3 {
+                    font-size:26px;
+                    color:#00f3ff;
+                    margin-top:30px;
+                    margin-bottom:0
+                }
+                
+                #business h4 {
+                    color:#fff;
+                    font-weight:500;
+                    font-size:20px
+                }
+                .building {
+                    padding-top:50px
+                }
+                .building h5 {
+                    font-size:35px;
+                    font-weight:700;
+                    color:#0a0141;
+                    line-height:35px;
+                    padding-bottom:30px
+                }
+                .large {
+                    width:140px;
+                    height:10px;
+                    background:#00f3ff
+                }
+                .align-flex-start {
+                    align-items:flex-start
+                }.align-flex-end {
+                    align-items:flex-end
+                }
+                .align-flex-center {
+                    align-items:center
+                } */
+                .flexcolumn {
+                    display:flex;
+                    flex-direction:column
+                }
+                /* #paranegocios {
+                    padding-top:80px;
+                    padding-bottom:80px;
+                    float:left;
+                    width:100%
+                }
+                #paranegocios .container {
+                    display:flex;
+                    justify-content:space-between;
+                    flex-direction:column
+                }
+                #paranegocios .left {
+                    width:100%
+                }
+                .full {
+                    display:flex;
+                    justify-content:space-between
+                }
+                .full .item {
+                    width:100%;
+                    display:flex;
+                    align-items:center;
+                    flex-direction:column
+                }.full .item:nth-child(1) {
+                    padding-right:40px
+                }
+                .full .item img {
+                    margin-bottom:30px
+                }
+                
+                .center {
+                    display:flex;
+                    flex-direction:column;
+                    align-items:center
+                }
+                .button {
+                    width:240px;
+                    display:flex;
+                    justify-content:center;
+                    align-items:center;
+                    color:#fff;
+                    font-weight:700;
+                    background:rgba(37,211,102,1);
+                    border:none;
+                    margin-top:35px;
+                    font-size:18px;
+                    padding-top:20px;
+                    padding-bottom:20px;
+                    padding-right:35px;
+                    padding-left:35px;
+                    text-decoration:none;
+                    text-transform:uppercase;
+                    transition:all .5s
+                }
+                .button:hover {
+                    background-color:rgba(37,211,102,.8)
+                    ;transition:all .5s
+                }
+                .button svg {
+                    margin-right:10px
+                }
+                #b3 {
+                    float:left;
+                    width:100%;
+                    background:#3091cf;
+                    padding-bottom:40px
+                }
+                #b3 h2 {
+                    font-size:40px;
+                    color:#171540;
+                    margin-top:60px
+                }
+                #b3 h3 {
+                    color:#fff;
+                    font-size:40px;
+                    margin-bottom:60px
+                }
+                #b3 p {
+                    font-size:23px;
+                    color:#fff;
+                    font-weight:700
+                }
+                #paranegocios .right img {
+                    position:absolute;
+                    height:700px;
+                    right:0;
+                    margin-top:-250px
+                }
+                #paranegocios h4 {
+                    font-size:35px;
+                    font-weight:700;
+                    color:#0a0141;
+                    line-height:35px;
+                    margin-bottom:20px
+                }
+                #paranegocios p {
+                    color:#808285;
+                    font-size:18px;
+                    font-weight:500;
+                    text-align:justify
+                }
+                #paranegocios a {
+                    color:#fff
+                }
+                #paranegocios button {
+                    color:#fff;
+                    font-weight:700;
+                    background:#00a1ff;
+                    border:none;
+                    margin-top:30px;
+                    font-size:17px;
+                    padding-top:10px;
+                    padding-bottom:10px;
+                    padding-right:15px;
+                    padding-left:15px
+                }
+                #servicos {
+                    padding-top:150px;
+                    background:#0a0141;
+                    float:left;
+                    width:100%;
+                    position:relative;
+                    z-index:333
+                }#servicos h4 {
+                    font-size:40px;
+                    font-weight:700;
+                    color:#00a1ff;
+                    line-height:35px;
+                    margin-bottom:40px
+                }
+                #servicos .content {display:flex;
+                    padding-bottom:50px;
+                    justify-content:space-between
+                }
+                #servicos .content h5 {
+                    margin-top:20px;
+                    color:#fff;
+                    font-weight:700;
+                    font-size:24px;
+                    margin-bottom:10px
+                }
+                #servicos .content p {
+                    color:#fff;
+                    font-size:17px
+                }#servicos img {
+                    width:60px */
+                }#contact {
+                    padding-top:0;
+                    padding-bottom:0;
+                    float:left;
+                    width:100%;
+                    background:#00a1ff;
+                    background-image:url(https://oruserv.com.br/wp-content/uploads/2020/10/bannerserv.jpg);
+                    background-size:cover;
+                    background-repeat:no-repeat;
+                    background-position:center
+                }
+                #contact h5 {
+                    font-size:40px;
+                    font-weight:700;
+                    color:#00a1ff;
+                    line-height:40px;
+                    margin-bottom:10px;
+                    text-align:center
+                }
+                #contact h3 {color:#0a0141;
+                    font-size:14px;
+                    font-weight:700;
+                    margin-bottom:15px;
+                    text-transform:uppercase
+                }
+                #contact h6 {
+                    margin-bottom:30px;
+                    color:#666;
+                    font-size:17px;
+                    font-weight:500;
+                    text-align:center;
+                    padding:0 15%
+                }
+                footer{
+                    background:#0a0141;
+                    padding-top:65px;
+                    padding-bottom:65px;
+                    float:left;width:100%
+                }
+                footer span {
+                    margin-top:10px;
+                    float:left;
+                    font-weight:700
+                }
+                footer h4 {
+                    font-size:20px;
+                    margin-bottom:10px
+                }
+                footer ul li {
+                    margin-right:10px
+                }
+                footer .container {
+                    display:flex;
+                    justify-content:
+                    space-between;
+                    align-items:center
+                }
+                footer .flexcolumn {
+                    display:flex;
+                    align-items:center;
+                    color:#fff
+                }
+                footer .right h5 {
+                    margin-top:10px;
+                    color:#77ced6;
+                    font-size:20px
+                }
+                footer .right p {
+                    color:#fff;
+                    font-size:17px
+                }
+                footer p.copyright {
+                    margin-top:10px;
+                    text-align:center;
+                    font-weight:700
+                }
+                    footer h4 {
+                        color:#77ced6;
+                        font-size:20px
+                    }
+                    footer a.link-wpp,footer a.link-phone {
+                        color:#77ced6;text-decoration:none
+                    }
+                    footer a.link-email {
+                        color:#fff;
+                        text-decoration:none
+                    }
+                    footer a:hover {
+                        text-decoration:underline
+                    }
+                    footer ul {
+                        display:flex;
+                        list-style:none
+                    }
+                    footer a {
+                        border-bottom:0 !important
+                    }
+                    @media(max-width:1024px){
+                        .container{
+                            width:90%}}
+                            @media(max-width:800px){ 
+                                #top{z-index:9999999999;
+                                    background:#fff;
+                                    position:fixed !important
+                                }
+                                #business h1 {
+                                    font-size:25px
+                                }
+                                #business h5 {
+                                    font-size:40px
+                                }
+                                .full .item:nth-child(1) {
+                                    padding-right:0;
+                                    margin-bottom:50px
+                                }
+                                .title {
+                                    flex-direction:column
+                                }
+                                #paranegocios .flexcolumn {
+                                    display:flex;
+                                    flex-direction:column;
+                                    justify-content:center;
+                                    text-align:center;
+                                    margin-top:30px;
+                                    margin-bottom:20px
+                                }
+                                #paranegocios .full {
+                                    flex-direction:column
+                                }
+                                .int {
+                                    flex-direction:column
+                                }
+                                #escolher img {
+                                    height:65px !important
+                                }
+                                #escolher .icon {
+                                    margin-bottom:30px
+                                }
+                                #b3 .full {
+                                    flex-direction:column
+                                }
+                                header ul li a {
+                                    font-size:12px
+                                }
+                                header ul li {
+                                    margin-left:12px;
+                                    display:block
+                                }
+                                #business {
+                                    padding-top:50px
+                                {
+                                .icons .icon p {font-size:12px;
+                                }
+                                .icons .icon p br {
+                                    display:none
+                                }
+                            }@media(max-width:600px){.logo img{ 
+                                height:auto;
+                                width:200px;
+                                margin-top:30px
+                            }
+                            header nav ul {
+                                display:none
+                            }
+                            .logo {
+                                width:100%;
+                                display:flex;
+                                justify-content:space-between;
+                                align-items:center
+                            }
+                            .hamburguer {
+                                display:block;
+                                position:absolute;
+                                right:20px
+                            }
+                            #contact .boxed {
+                                flex-direction:column
+                            }
+                            #contact .boxed .right {
+                                margin-top:20px
+                            }
+                            header nav {
+                                display:flex;
+                                flex-direction:column
+                            }
+                            header nav ul {
+                                flex-direction:column;
+                                width:100%;
+                                margin-top:20px;
+                                display:none
+                            }
+                            header {padding-top:30px;
+                                padding-bottom:30px
+                            }#banner {background-image:url(https://oruserv.com.br/wp-content/uploads/2020/03/bannermobileserv.png);
+                                background-size:cover;
+                                background-color:transparent;
+                                height:auto;
+                                padding-top:50px;
+                                padding-bottom:50px
+                            }
+                            .txtbanner h1 {
+                                font-size:51px;
+                                margin-bottom:0;
+                                padding-bottom:0;
+                                width:auto;
+                                line-height:normal
+                            }
+                            .txtbanner p {
+                                color:#ffff;
+                                font-size:18px;
+                                margin-top:20px
+                            }
+                            .txtbanner br {
+                                display:none
+                            }
+                            #banner .container img {
+                                top:60px
+                            }
+                            .icons {
+                                margin-bottom:40px;
+                                flex-direction:column
+                            }
+                            .icons .icon img {
+                                height:40px
+                            }
+                            .icons .icon {
+                                margin-top:5px;
+                                margin-bottom:5px
+                            }
+                            #business h3 {
+                                font-size:16px;
+                                margin-bottom:30px
+                            }
+                            #business h4 {
+                                font-size:14px
+                            
+                            }#servicos .content {
+                                flex-direction:column
+                            }
+                            #servicos .content .icon {
+                                margin-top:5px;
+                                display:flex;
+                                align-items:center;
+                                justify-content:center;
+                                flex-direction:column;
+                                margin-bottom:50px
+                            }
+                            #servicos {
+                                padding-top:50px
+                            }
+                            footer .container {
+                                display:flex;
+                                flex-direction:column
+                            }
+                            footer .container .left {
+                                margin-bottom:10px
+                            }
+                            #paranegocios .right img {
+                                display:none
+                            }
+                            #paranegocios .left {
+                                width:100%
+                            }
+                            .title h2 br {
+                                display:none
+                            }
+                            .title h2 {
+                                font-size:30px;
+                                color:#171540;
+                                margin-bottom:20px;
+                                text-align:center}
+                            
+                            }.grecaptcha-badge{opacity:0}
